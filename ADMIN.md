@@ -40,7 +40,7 @@ ItemName: <br />
     slash: float <br />
     heat: float <br />
     cold: float <br />
-    electricity: <float> <br />
+    electricity: float <br />
     poison: float <br />
   Damages: <br />
     impact: float <br />
