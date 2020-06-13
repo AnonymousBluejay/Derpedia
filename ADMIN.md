@@ -65,21 +65,21 @@ ItemName: <br />
     hat: <boolean> <br /> <br />
 
 #### Notes
-Items are naturally unbreakable and hides the unbreakable tag.
-
+Items are naturally unbreakable and hides the unbreakable tag. <br />
+Most int and float values support randomization, for example, "-55,55" would randomly generate a integer or float between -55 and 55 <br />
 
 #### ItemName
-Every item must have an ItemName. ItemName can consist of any uppercase and lowercase letter, number, and underscore. No space bars allowed. Keep in mind each item must have a unique name. This is also the item ID used in game. Defaults to the item name of Type.
+Every item must have an ItemName. ItemName can consist of any uppercase and lowercase letter, number, and underscore. No space bars  <br />allowed. Keep in mind each item must have a unique name. This is also the item ID used in game. Defaults to the item name of Type. <br />
 
 #### Type
-Type can be any minecraft item ID, this is the item that will appear in game. Defaults to "iron_horse_armor".
+Type can be any minecraft item ID, this is the item that will appear in game. Defaults to "iron_horse_armor". <br />
 
 #### CustomModelData
-Model ID of the item. The ID list will be released at a later date.
-  #Generic rig: 1010010
-  #Generic core: 1020010
-  #Generic mod: 1030010
-  #Generic Energy Mod: 1030020
+Model ID of the item. The ID list will be released at a later date. <br />
+  #Generic rig: 1010010 <br />
+  #Generic core: 1020010 <br />
+  #Generic mod: 1030010 <br />
+  #Generic Energy Mod: 1030020 <br />
 
 #### Slot
 The slot is very important, it changes the way the item constructor creates items. Defaults to item.
