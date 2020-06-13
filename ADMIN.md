@@ -75,7 +75,11 @@ Every item must have an ItemName. ItemName can consist of any uppercase and lowe
 Type can be any minecraft item ID, this is the item that will appear in game. Defaults to "iron_horse_armor".
 
 #### CustomModelData
-Model ID of the item. The ID list will be released at a later date. 
+Model ID of the item. The ID list will be released at a later date.
+  #Generic rig: 1010010
+  #Generic core: 1020010
+  #Generic mod: 1030010
+  #Generic Energy Mod: 1030020
 
 #### Slot
 The slot is very important, it changes the way the item constructor creates items. Defaults to item.
