@@ -13,35 +13,35 @@ Admins and developers should familiarize themselves with this section of the wik
 The config files are structured with folders for easy navigation with the in game menu. Each file can contain multiple items but each item must have an unique name.
 
 ### Item Config
-ItemName:
-  Type: <String>
-  Name: <String>
-  CustomModelData: <int>
-  Slot: <String>
-  Description: <String>
-  Color: <String>
-  Attributes: 
-    max_health: <int>
-    movement_speed: <int>
-  Core:
-    core_capacity: <int>
-  Defenses:
-    impact: <int>
-    slash: <int>
-    heat: <int>
-    cold: <int>
-    electricity: <int>
-    poison: <int>
-  Resistances:
-    impact: <int>
-    slash: <int>
-    heat: <int>
-    cold: <int>
-    electricity: <int>
-    poison: <int>
-  Misc:
-    shiny: <boolean>
-    hat: <boolean>
+ItemName: <br />
+  Type: <String> <br />
+  Name: <String> <br />
+  CustomModelData: <int> <br />
+  Slot: <String> <br />
+  Description: <String> <br />
+  Color: <String> <br />
+  Attributes:  <br />
+    max_health: <int> <br />
+    movement_speed: <int> <br />
+  Core: <br />
+    core_capacity: <int> <br />
+  Defenses: <br />
+    impact: <int> <br />
+    slash: <int> <br />
+    heat: <int> <br />
+    cold: <int> <br />
+    electricity: <int> <br />
+    poison: <int> <br />
+  Resistances: <br />
+    impact: <int> <br />
+    slash: <int> <br />
+    heat: <int> <br />
+    cold: <int> <br />
+    electricity: <int> <br />
+    poison: <int> <br />
+  Misc: <br />
+    shiny: <boolean> <br />
+    hat: <boolean> <br />
 
 #### Notes
 Items are naturally unbreakable and hides the unbreakable tag.
