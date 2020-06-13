@@ -53,6 +53,9 @@ Passive abilities are
 Activated by fall damage or crash landing elytra. Consumes energy to prevent or reduce fall damage.
 Reduction: 1 energy/damage
 
+**Waterproof**
+Removes electricity damage from touching water and rain
+
 ## Stats
 The stats in this game are more complex than vanilla Minecraft, and can take some getting used to.
 
