@@ -2,12 +2,12 @@
 Admins and developers should familiarize themselves with this section of the wiki. This section mainly consists of admin command manuals and config details.
 
 ### Admin Commands
-/derp - Show all commands
-/derp reload - Reload config files
-/nbt - Show NBT help page
-/item - Open get item menu
-/loadout [player] - View/edit other players' loadout
-/stats [player] - View other players' stats
+/derp - Show all commands <br />
+/derp reload - Reload config files <br />
+/nbt - Show NBT help page <br />
+/item - Open get item menu <br />
+/loadout [player] - View/edit other players' loadout <br />
+/stats [player] - View other players' stats <br />
 
 ## Config
 The config files are structured with folders for easy navigation with the in game menu. Each file can contain multiple items but each item must have an unique name.
