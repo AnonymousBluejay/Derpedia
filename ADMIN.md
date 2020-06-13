@@ -21,24 +21,34 @@ ItemName: <br />
   Description: <String> <br />
   Color: <String> <br />
   Attributes:  <br />
-    max_health: <int> <br />
-    movement_speed: <int> <br />
+    max_health: <float> <br />
+    movement_speed: <float> <br />
+    stability: <float> <br />
   Core: <br />
     core_capacity: <int> <br />
+    energy_output: <int> <br />
+    energy_usage: <int> <br />
   Defenses: <br />
-    impact: <int> <br />
-    slash: <int> <br />
-    heat: <int> <br />
-    cold: <int> <br />
-    electricity: <int> <br />
-    poison: <int> <br />
+    impact: <float> <br />
+    slash: <float> <br />
+    heat: <float> <br />
+    cold: <float> <br />
+    electricity: <float> <br />
+    poison: <float> <br />
   Resistances: <br />
-    impact: <int> <br />
-    slash: <int> <br />
-    heat: <int> <br />
-    cold: <int> <br />
-    electricity: <int> <br />
-    poison: <int> <br />
+    impact: <float> <br />
+    slash: <float> <br />
+    heat: <float> <br />
+    cold: <float> <br />
+    electricity: <float> <br />
+    poison: <float> <br />
+  Damages: <br />
+    impact: <float> <br />
+    slash: <float> <br />
+    heat: <float> <br />
+    cold: <float> <br />
+    electricity: <float> <br />
+    poison: <float> <br />
   Misc: <br />
     shiny: <boolean> <br />
     hat: <boolean> <br />
@@ -75,6 +85,62 @@ Descriptions are automatically formatted and added to the lore, there are no nee
 #### Color
 Color is used for leather armor only, and should be entered in RGB format. <br />
 Example: Color: 85,255,255
+
+#### Attributes
+**max_health** - increase the maximum health of the player by the specified amount <br />
+**movement_speed** - increase the movement speed of the player by the specified amount <br />
+movement_speed is counted in blocks per second, a value of 1 means the player walks 1 blocks per second faster than normal <br />
+**stability** - decrease the velocity of knockback taken by the player <br />
+stability is a percentage value, a value of 0.2 means the player takes 20% less knockback <br />
+
+#### Core
+**mod_capacity** - increase number of mods a loadout can hold (up to a maximum of 16) <br />
+**energy_output** - increase the maximum amount of power that can be used by mods <br />
+**energy_usage** - how much power is used up by the mod <br />
+
+#### Defenses
+Defenses has 6 sub-categories for the 6 elemental damages, each reduce the damage taken from that element by a percentage <br />
+Example: "impact: 10.5" would mean whoever uses the item take 10.5% impact damage <br />
+
+#### Resistances
+Resistances also has 6 sub-categories, each increase the threshold of procs before a status effect activates. A player with no gear has 100 in every category by default, further values increase or decrease that value. <br />
+Example: "fire: 50" would mean an extra 50 points of fire proc can be absorbed before a player is set on fire <br />
+NOTE: Procs decrease at a percentage rate, meaning higher resistance will make procs wear off faster before it triggers. After a proc triggers, it goes down at a fixed rate. <br />
+
+#### Damages
+Damages also has 6 sub-categories, each boosting the damage done by the player of that category by a percentage <br />
+Example: "slash: 20" means the player deals 20% more slash damage <br />
+
+#### Energy
+**energy_max** - Increases the maximum energy capacity of the player <br />
+**energy_regen_amount** - amount of energy regained for each tick of energy regen <br />
+**energy_regen_rate** - delay in ticks between each energy regen tick <br />
+A value of 10 would mean a player regains energy_regen_amount of energy every 10 ticks (0.5s) <br />
+Higher value means slower regen, lower value means faster regen <br />
+This value can change a player's energy regain rate drastically <br />
+**energy_regen_delay** - delay in ticks before a player starts regaining energy again after using up some energy (for abilities) <br />
+**energy_efficiency** - percentage reduction in energy used <br />
+A value of 10 would mean the player uses 10% less energy when using abilities <br />
+
+#### Focus
+WIP
+
+#### Skills
+##### Shift
+Replace shift ability and level <br />
+Example: <br />
+Shift: <br />
+  charged_boost: 1 <br />
+Replaces shift ability with charged_boost with level 1
+**shift_skill_boost** - increase the level of current shift ability by amount <br />
+
+##### Jump
+Replace double jump ability and level <br />
+Example: <br />
+Jump: <br />
+  air_dash: 1 <br />
+Replaces double jump ability with air_dash with level 1
+**jump_skill_boost** - increase the level of current jump ability by amount <br />
 
 #### Misc
 
