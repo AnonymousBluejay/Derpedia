@@ -14,34 +14,34 @@ The config files are structured with folders for easy navigation with the in gam
 
 ### Item Config
 ItemName: <br />
-  Type: <String> <br />
-  Name: <String> <br />
-  CustomModelData: <int> <br />
-  Slot: <String> <br />
-  Description: <String> <br />
-  Color: <String> <br />
-  Attributes:  <br />
-    max_health: <int> <br />
-    movement_speed: <int> <br />
-  Core: <br />
-    core_capacity: <int> <br />
-  Defenses: <br />
-    impact: <int> <br />
-    slash: <int> <br />
-    heat: <int> <br />
-    cold: <int> <br />
-    electricity: <int> <br />
-    poison: <int> <br />
-  Resistances: <br />
-    impact: <int> <br />
-    slash: <int> <br />
-    heat: <int> <br />
-    cold: <int> <br />
-    electricity: <int> <br />
-    poison: <int> <br />
-  Misc: <br />
-    shiny: <boolean> <br />
-    hat: <boolean> <br />
+  Type: <String> <br />
+  Name: <String> <br />
+  CustomModelData: <int> <br />
+  Slot: <String> <br />
+  Description: <String> <br />
+  Color: <String> <br />
+  Attributes:  <br />
+    max_health: <int> <br />
+    movement_speed: <int> <br />
+  Core: <br />
+    core_capacity: <int> <br />
+  Defenses: <br />
+    impact: <int> <br />
+    slash: <int> <br />
+    heat: <int> <br />
+    cold: <int> <br />
+    electricity: <int> <br />
+    poison: <int> <br />
+  Resistances: <br />
+    impact: <int> <br />
+    slash: <int> <br />
+    heat: <int> <br />
+    cold: <int> <br />
+    electricity: <int> <br />
+    poison: <int> <br />
+  Misc: <br />
+    shiny: <boolean> <br />
+    hat: <boolean> <br />
 
 #### Notes
 Items are naturally unbreakable and hides the unbreakable tag.
@@ -59,21 +59,21 @@ Model ID of the item. The ID list will be released at a later date.
 #### Slot
 The slot is very important, it changes the way the item constructor creates items. Defaults to item.
 
-Slots currently include:
-**rig** - placed in rig slot in loadout
-**core** - placed in core slot in loadout
-**mod** - placed in mod slots in loadout
-**armor** - cosmetic armor with no stats
-**weapon** - enables player interact event checks, weapons are still a work in progress
-**item** - normal item, nothing special
-**placeholder** - disabled for items
-**immobile** - disabled for items
+Slots currently include: <br />
+**rig** - placed in rig slot in loadout <br />
+**core** - placed in core slot in loadout <br />
+**mod** - placed in mod slots in loadout <br />
+**armor** - cosmetic armor with no stats <br />
+**weapon** - enables player interact event checks, weapons are still a work in progress <br />
+**item** - normal item, nothing special <br />
+**placeholder** - disabled for items <br />
+**immobile** - disabled for items <br />
 
 #### Description
 Descriptions are automatically formatted and added to the lore, there are no need for new lines.
 
 #### Color
-Color is used for leather armor only, and should be entered in RGB format.
+Color is used for leather armor only, and should be entered in RGB format. <br />
 Example: Color: 85,255,255
 
 #### Misc
