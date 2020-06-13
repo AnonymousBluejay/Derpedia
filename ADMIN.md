@@ -49,9 +49,20 @@ ItemName: <br />
     cold: <float> <br />
     electricity: <float> <br />
     poison: <float> <br />
+  Skills <br />
+    Shift: <br />
+      ability_name: <int> <br />
+      shift_skill_boost: <int> <br />
+    Jump: <br />
+      ability_name: <int> <br />
+      jump_skill_boost: <int> <br />
+    Passive: <br />
+      ability_name: <int> <br />
+      (can have more than 1 ability here)
+      passive_skill_boost: <int> <br />
   Misc: <br />
-    shiny: <boolean> <br />
-    hat: <boolean> <br />
+    shiny: <boolean> <br /> <br />
+    hat: <boolean> <br /> <br />
 
 #### Notes
 Items are naturally unbreakable and hides the unbreakable tag.
@@ -131,7 +142,7 @@ Replace shift ability and level <br />
 Example: <br />
 Shift: <br />
   charged_boost: 1 <br />
-Replaces shift ability with charged_boost with level 1
+Replaces shift ability with charged_boost with level 1 <br />
 **shift_skill_boost** - increase the level of current shift ability by amount <br />
 
 ##### Jump
@@ -139,8 +150,17 @@ Replace double jump ability and level <br />
 Example: <br />
 Jump: <br />
   air_dash: 1 <br />
-Replaces double jump ability with air_dash with level 1
+Replaces double jump ability with air_dash with level 1  <br />
 **jump_skill_boost** - increase the level of current jump ability by amount <br />
+
+##### Passive
+Add passive abilities <br />
+Example:
+Passive: <br />
+  shock_absorber: 1 <br />
+Adds the shock absorber passive at level 1 1 <br />
+**passive_skill_boost** - increase the level of the LAST ADDED passive ability in the loadout order 1 <br />
+Multiple passive skills can be equipped at once 1 <br />
 
 #### Misc
 
