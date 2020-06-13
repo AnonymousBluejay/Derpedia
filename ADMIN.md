@@ -14,55 +14,55 @@ The config files are structured with folders for easy navigation with the in gam
 
 ### Item Config
 ItemName: <br />
-  Type: <String> <br />
-  Name: <String> <br />
-  CustomModelData: <int> <br />
-  Slot: <String> <br />
-  Description: <String> <br />
-  Color: <String> <br />
+  Type: String <br />
+  Name: String <br />
+  CustomModelData: int <br />
+  Slot: String <br />
+  Description: String <br />
+  Color: String <br />
   Attributes:  <br />
-    max_health: <float> <br />
-    movement_speed: <float> <br />
-    stability: <float> <br />
+    max_health: float <br />
+    movement_speed: float <br />
+    stability: float <br />
   Core: <br />
-    core_capacity: <int> <br />
-    energy_output: <int> <br />
-    energy_usage: <int> <br />
+    core_capacity: int <br />
+    energy_output: int <br />
+    energy_usage: int <br />
   Defenses: <br />
-    impact: <float> <br />
-    slash: <float> <br />
-    heat: <float> <br />
-    cold: <float> <br />
-    electricity: <float> <br />
-    poison: <float> <br />
+    impact: float <br />
+    slash: float <br />
+    heat: float <br />
+    cold: float <br />
+    electricity: float <br />
+    poison: float <br />
   Resistances: <br />
-    impact: <float> <br />
-    slash: <float> <br />
-    heat: <float> <br />
-    cold: <float> <br />
+    impact: float <br />
+    slash: float <br />
+    heat: float <br />
+    cold: float <br />
     electricity: <float> <br />
-    poison: <float> <br />
+    poison: float <br />
   Damages: <br />
-    impact: <float> <br />
-    slash: <float> <br />
-    heat: <float> <br />
-    cold: <float> <br />
-    electricity: <float> <br />
-    poison: <float> <br />
+    impact: float <br />
+    slash: float <br />
+    heat: float <br />
+    cold: float <br />
+    electricity: float <br />
+    poison: float <br />
   Skills <br />
     Shift: <br />
-      ability_name: <int> <br />
-      shift_skill_boost: <int> <br />
+      ability_name: int <br />
+      shift_skill_boost: int <br />
     Jump: <br />
-      ability_name: <int> <br />
-      jump_skill_boost: <int> <br />
+      ability_name: int <br />
+      jump_skill_boost: int <br />
     Passive: <br />
-      ability_name: <int> <br />
+      ability_name: int <br />
       (can have more than 1 ability here)
-      passive_skill_boost: <int> <br />
+      passive_skill_boost: int <br />
   Misc: <br />
-    shiny: <boolean> <br /> <br />
-    hat: <boolean> <br /> <br />
+    shiny: boolean <br /> <br />
+    hat: boolean <br /> <br />
 
 #### Notes
 Items are naturally unbreakable and hides the unbreakable tag. <br />
