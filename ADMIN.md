@@ -42,24 +42,24 @@ ItemName: <br />
     cold: <float> <br />
     electricity: <float> <br />
     poison: <float> <br />
-  Damages: <br />
+  Damages: <br />
     impact: <float> <br />
     slash: <float> <br />
     heat: <float> <br />
     cold: <float> <br />
     electricity: <float> <br />
     poison: <float> <br />
-  Skills <br />
-    Shift: <br />
-      ability_name: <int> <br />
-      shift_skill_boost: <int> <br />
-    Jump: <br />
-      ability_name: <int> <br />
-      jump_skill_boost: <int> <br />
-    Passive: <br />
-      ability_name: <int> <br />
-      (can have more than 1 ability here)
-      passive_skill_boost: <int> <br />
+  Skills <br />
+    Shift: <br />
+      ability_name: <int> <br />
+      shift_skill_boost: <int> <br />
+    Jump: <br />
+      ability_name: <int> <br />
+      jump_skill_boost: <int> <br />
+    Passive: <br />
+      ability_name: <int> <br />
+      (can have more than 1 ability here)
+      passive_skill_boost: <int> <br />
   Misc: <br />
     shiny: <boolean> <br /> <br />
     hat: <boolean> <br /> <br />
